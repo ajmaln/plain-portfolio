@@ -1,0 +1,32 @@
+
+
+.skills-container {
+    display: flex;
+    min-width: 600px;
+    margin-block-end: 1em;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .skills-container {
+        min-width: 100%;
+    }
+
+}
+
+.skill {
+    font-family: monospace;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0 5px;
+    margin: 3px;
+    border-radius: 0.2em;
+    transition: all 300ms ease;
+}
+
+.skill:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 3px;
+}
