@@ -1,2 +1,2 @@
-# portfolio
+# Plain Portfolio
 React portfolio template
