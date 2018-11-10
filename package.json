@@ -2,6 +2,7 @@
   "name": "plain-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ajmaln.github.io/plain-portfolio",
   "dependencies": {
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
